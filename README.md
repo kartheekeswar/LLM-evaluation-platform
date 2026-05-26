@@ -85,12 +85,11 @@ Generate and download professional PDF reports of current comparison
 ## Project Structure
 
 ```
-llm-evaluation-platform/
-├── app.py                  # Main application (450+ lines)
+LLM-evaluation-platform/
+├── app.py                  # Main application
 ├── requirements.txt        # Dependencies
 ├── packages.txt            # System packages
-├── README.md               # Documentation
-└── comparison_history.csv  # Persistent storage
+└── README.md               # Documentation
 ```
 
 ## Deployment
