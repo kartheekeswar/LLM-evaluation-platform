@@ -84,11 +84,14 @@ Generate and download professional PDF reports of current comparison
 
 ## Project Structure
 
+```
 llm-evaluation-platform/
-├── app.py                 - Main application
-├── requirements.txt       - Dependencies
-├── packages.txt           - System packages
-└── README.md              - Documentation
+├── app.py                  # Main application (450+ lines)
+├── requirements.txt        # Dependencies
+├── packages.txt            # System packages
+├── README.md               # Documentation
+└── comparison_history.csv  # Persistent storage
+```
 
 ## Deployment
 
@@ -96,7 +99,6 @@ Automated deployment pipeline from GitHub to HuggingFace Spaces with Docker cont
 
 ## Connect
 
-**Live App:** https://huggingface.co/spaces/Kartheek321/LLM-Comparison-Platform  
-**GitHub:** https://github.com/Kartheek321/llm-evaluation-platform  
+**Live App:** https://huggingface.co/spaces/Kartheek321/LLM-Comparison-Platform
 
 Built to demonstrate end-to-end ML engineering from API integration to production deployment with CI/CD automation.
